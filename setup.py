@@ -94,7 +94,7 @@ setup(
         "": ["README.rst", "LICENSE.rst", "AUTHORS.rst"],
     },
     include_package_data=True,
-    install_requires=["numpy"],
+    install_requires=["numpy==1.26.4"],
     ext_modules=[ext],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
